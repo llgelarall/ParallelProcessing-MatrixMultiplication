@@ -6,9 +6,7 @@ This project explores parallel matrix multiplication algorithms within the PRAM 
 
 The objective is to perform matrix multiplication for 9x9 matrices efficiently using a variable number of threads, denoted as 'p'. The goal is to distribute the computation such that each thread multiplies a portion of the input array with specific columns, and the final result is a multiplied matrix.
 
-## Parallel Algorithms
-
-### 1. PRAM Algorithm
+## PRAM Algorithm
 
 In this algorithm, we leverage 'p' threads to perform the matrix multiplication in parallel. Each thread is responsible for multiplying a portion of the first array with the j-th column of the second array, where 'j' ranges from 0 to n/p. The threads then combine their results to construct the final matrix.
 
