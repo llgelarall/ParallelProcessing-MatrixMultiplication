@@ -26,6 +26,10 @@ The results of the matrix multiplication are documented in the `mult_thread.txt`
   <img src="4th.png" alt="d2">
 </div>
 
+## Usage
+
+Follow the steps in "How to use PINocchio.txt".
+
 ## Acknowledgments
 
 We would like to acknowledge the valuable insights and contributions from the parallel computing community. This project was inspired by discussions and research projects like "PINocchio" (https://github.com/albf/PINocchio), which have significantly contributed to our understanding of parallel processing techniques.
